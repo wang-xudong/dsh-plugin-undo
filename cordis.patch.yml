@@ -1,0 +1,5 @@
+# dsh-plugin-undo bundle layer: inserts the conversation-undo host row.
+# The client half ships through the package.json dsh.client manifest.
+- insert:
+    - id: dsh-undo
+      name: 'dsh-plugin-undo'
